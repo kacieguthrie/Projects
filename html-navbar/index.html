@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+    <div class="nav--desktop">
+      <div class="mobile-wrapper">
+        <div class="header-cart__wrapper hidden-lg">
+          <a href="/cart"></a>
+        </div>
+      <div>
+        <h1>
+          <a href="/" itemprop="url"></a>
+        </h1>
+      </div>
+    <!-- doesn't this a need a url after the href? -->
+      <a href class="menuToggle header-hamburger"></a>
+    </div>
+    <div class=header-menu nav-wrapper>
+      <ul><!--this is the list of nav headings (shop, about, process, etc...)-->
+        <li>
+          <a href="#">Shop</a>
+          <a href="#">
+            <span>+</span>
+            <span>-</span>
+          </a>
+          <div class="main-menu-dropdown">
+            <ul class="main-menu-dropdown-list"><!--this is everything listed under "shop"-->
+              <li> <!--this is the first grouping (left-most column) of the drop-down menu under "shop"-->
+                <ul>
+                  <li>
+                    <h5>
+                      <a href="/collections/all">All Collections</a>
+                    </h5>
+                  </li>
+                  <li>
+                    <h5>
+                      <a href="/collections/new-arrivals">New Arrivals</a>
+                    </h5>
+                  </li>
+                  <li>
+                    <h5>
+                      <a href="/collections/bedding">Bedding</a>
+                    </h5>
+                    <ul>
+                      <li>
+                          <a href="/collections/quilts">Quilts</a>
+                      </li>
+                      <li>
+                          <a href="/collections/throw-blankets">Throws</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <h5>
+                      <a href="/collections/sale">Sale</a>
+                    </h5>
+                  </li>
+                </ul>
+              </li>
+              <li><!--this is the second grouping of the drop-down menu under "shop"-->
+                <ul>
+                  <li>
+                    <h5>
+                      <a href="/collections/fabric-by-the-yard">Fabric</a>
+                    </h5>
+                    <ul><!--these are the subheadings under the Fabric collection-->
+                      <li>
+                          <a href="/collections/printed">Printed</a>
+                      </li>
+                      <li>
+                          <a href="/collections/woven">Woven</a>
+                      </li>
+                      <li>
+                          <a href="/collections/embroidered">Embroidered</a>
+                      </li>
+                      <li>
+                          <a href="/collections/swatches">Swatches</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <h5>
+                      <a href="/collections/table-linens">Dining</a>
+                    </h5>
+                    <ul>
+                      <li>
+                          <a href="/collections/table-linens">Table Linens</a>
+                          <!--has the same href as parent because there is only one subheading under dining-->
+                      </li>
+                    </ul>
+                    <!--this structure continues for the Wallpaper, Accessories, Artwork, and Pillows menu items-->
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--this is the end of the drop-down menu-->
+        </li><!--this is the end of the "shop" navigation list item-->
+        <li>
+            <a href="/pages/about-us">About</a>
+        </li>
+        <li>
+            <a href="/pages/process">Process</a>
+        </li>
+        <li>
+            <a href="/blogs/from-the-studio">Blog</a>
+        </li>
+        <li>
+            <a href="/pages/book">Trade</a>
+        </li>
+        <li>
+            <a href="/pages/contact">Contact</a>
+        </li>
+        <li>
+            <a href="/cart">Cart</a>
+        </li>
+      </ul> 
+    </div>
+  </body>
+</html>
